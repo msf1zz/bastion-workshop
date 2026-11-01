@@ -1,0 +1,9 @@
+[package]
+name = "bastion-workshop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# When this repo is published, switch the path dependency to the git URL:
+# bastion-engine = { git = "https://github.com/<you>/bastion-engine" }
+bastion-engine = { path = "../Bastion-Engine" }
